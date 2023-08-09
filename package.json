@@ -1,34 +1,92 @@
 {
-  "name": "hello",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.4.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "react-app1",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://localhost:3000/",
+    "dependencies": {
+        "@azure/msal-browser": "^2.32.2",
+        "@azure/msal-common": "^9.1.1",
+        "@azure/msal-react": "^1.5.2",
+        "@babel/core": "^7.1.6",
+        "@connectis/diff-test-coverage": "^1.5.3",
+        "@material-ui/core": "^3.1.2",
+        "@material-ui/icons": "^3.0.1",
+        "@material-ui/lab": "^3.0.0-alpha.30",
+        "@nivo/bar": "^0.52.0",
+        "@nivo/line": "^0.51.0",
+        "@nivo/pie": "^0.51.0",
+        "@nivo/scatterplot": "^0.52.1",
+        "ag-grid-community": "^25.1.0",
+        "ag-grid-react": "^25.1.0",
+        "ajv-keywords": "^3.2.0",
+        "apexcharts": "^3.8.2",
+        "axios": "^0.18.0",
+        "canvasjs": "^1.8.1",
+        "chart.js": "^2.8.0",
+        "enzyme-to-json": "^3.3.5",
+        "lodash": "^4.17.11",
+        "moment": "^2.24.0",
+        "msal": "^1.4.17",
+        "namor": "^1.1.1",
+        "nivo": "^0.31.0",
+        "paginate-array": "^2.1.0",
+        "powerbi-client-react": "^1.3.5",
+        "powerbi-models": "^1.12.3",
+        "qs": "^6.5.2",
+        "react": "^16.5.2",
+        "react-apexcharts": "^1.3.3",
+        "react-bootstrap": "^1.0.0-beta.10",
+        "react-bootstrap-modal": "^4.2.0",
+        "react-bootstrap-table-next": "^4.0.3",
+        "react-chartjs-2": "^2.7.6",
+        "react-datepicker": "^2.0.0",
+        "react-dom": "^16.5.2",
+        "react-dropzone": "^4.2.12",
+        "react-html-table-to-excel": "^2.0.0",
+        "react-infinite-scroll-component": "^5.0.4",
+        "react-infinite-scroller": "^1.2.4",
+        "react-js-pagination": "^3.0.3",
+        "react-lazyload": "^2.6.7",
+        "react-month-picker": "^1.3.8",
+        "react-router": "^4.3.1",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "^3.0.0",
+        "react-select": "^2.1.0",
+        "react-table-filter": "^1.1.5",
+        "react-test-renderer": "^16.8.6",
+        "semantic-ui-css": "^2.5.0",
+        "semantic-ui-react": "^2.1.4",
+        "xlsexport": "^1.5.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.1.5",
+        "@babel/preset-env": "^7.1.0",
+        "babel-cli": "^6.26.0",
+        "babel-plugin-lodash": "^3.3.4",
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.14.0"
+    },
+    "jest": {
+        "snapshotSerializers": [
+            "enzyme-to-json/serializer"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
