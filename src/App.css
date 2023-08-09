@@ -1,0 +1,874 @@
+.myModalStyle{
+
+}
+.MuiModal-root-159 {
+  top: 11px !important;
+  left: -17px !important;
+  right: 1134px !important;
+  bottom: 0 !important;
+  z-index: 1300 !important;
+  position: fixed !important;
+  max-height: none !important;
+  height:775px !important
+}
+.display{
+  color : white !important
+}
+.asses{
+  font-size: 63px !important;
+}
+.tabcls{
+  position: relative !important;
+  top: -88px !important;
+    right: 79px !important;
+}
+.report-style-class{
+  width: 1259px !important;
+  height: 505px !important;
+}
+.main-tab-width {
+  min-width: 40px !important;
+}
+.App {
+  /* text-align: center; */
+  margin: 0;
+  padding: 0;
+  /* padding-top: 20px; */
+  font-family: "Roboto", sans-serif;
+}
+.asOfDatecls {
+  z-index: 999 !important;
+  position: relative;
+}
+.overlaycls {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999999;
+  cursor: pointer;
+  margin-left: 240px;
+}
+.hidden {
+  display: none;
+}
+.active {
+  color: aqua !important;
+}
+.white {
+  color: white !important;
+}
+.updatebtn {
+  padding: 10px 8px !important;
+  min-width: 81px !important;
+  font-size: 0.8125rem !important;
+  min-height: 35px !important;
+}
+.clsasofdate {
+  z-index: 999 !important;
+  position: absolute;
+}
+.cmbs-search {
+  position: absolute;
+  right: 350px;
+  top: 13px;
+  color: #fff;
+  font-weight: bold;
+  z-index: 1201;
+  min-width: 200px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.cmbx {
+  padding: 30px !important;
+}
+.portfolioSummary {
+  padding: 30px !important;
+}
+.allrecoveries {
+  padding: 30px !important;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.dplystr {
+  padding: 67px !important;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fontbold {
+  font-weight: bold;
+}
+.dt p {
+  white-space: nowrap;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  border-left: 1px solid rgb(220, 220, 220);
+  padding: 3px;
+  margin: 0;
+}
+
+table.dt {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+td.dt {
+  padding: 0 !important;
+  margin: 0;
+  border: none !important;
+}
+.dealname {
+  background-color: #c5d9f1;
+}
+.loanname {
+  background-color: #c5d9f1;
+}
+.address {
+  background-color: #fff2cc;
+}
+.type {
+  background-color: #fff2cc;
+}
+.subtype {
+  background-color: #fff2cc;
+}
+.units {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.city {
+  background-color: #fff2cc;
+}
+.state {
+  background-color: #fff2cc;
+}
+.originalbalance {
+  background-color: #fce4d6;
+}
+.trustbalance {
+  background-color: #fce4d6;
+}
+.advancespi {
+  background-color: #fce4d6;
+}
+.advancesti {
+  background-color: #fce4d6;
+}
+.potitle {
+  display: block;
+  font-size: 1em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+}
+.advancesother {
+  background-color: #fce4d6;
+}
+.cumasers {
+  background-color: #fce4d6;
+}
+.nonrecoverablescurrent {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.reserves {
+  background-color: #fce4d6;
+}
+.wholeloanbal {
+  background-color: #fce4d6;
+}
+.totalexposure {
+  background-color: #fce4d6;
+}
+.totaldebtunit {
+  background-color: #fce4d6;
+}
+.ofdeal {
+  background-color: #fce4d6;
+}
+.cumulative {
+  background-color: #fce4d6;
+}
+.status {
+  background-color: #fce4d6;
+}
+.maturity {
+  background-color: #fce4d6;
+}
+.purpose {
+  background-color: #fce4d6;
+}
+.cashinout {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.sponsor {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.cutoffoccy {
+  background-color: #c6e0b4;
+}
+.currentoccy {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.rollover {
+  background-color: #c6e0b4;
+}
+.largesttenant {
+  background-color: #c6e0b4;
+}
+.largestsf {
+  background-color: #c6e0b4;
+}
+.largestexp {
+  background-color: #c6e0b4;
+}
+.secondtenant {
+  background-color: #c6e0b4;
+}
+.secondsf {
+  background-color: #c6e0b4;
+}
+.secondexp {
+  background-color: #c6e0b4;
+}
+.thirdtenant {
+  background-color: #c6e0b4;
+}
+.thirdsf {
+  background-color: #c6e0b4;
+}
+.thirdexp {
+  background-color: #c6e0b4;
+}
+.fourthtenant {
+  background-color: #c6e0b4;
+}
+.fourthsf {
+  background-color: #c6e0b4;
+}
+.fourthexp {
+  background-color: #c6e0b4;
+}
+.fifthtenant {
+  background-color: #c6e0b4;
+}
+.fifthsf {
+  background-color: #c6e0b4;
+}
+.fifthexp {
+  background-color: #c6e0b4;
+}
+.noistartdate {
+  background-color: #b4c6e7;
+}
+.noienddate {
+  background-color: #b4c6e7;
+}
+.uwnoi {
+  background-color: #b4c6e7;
+}
+.rawnoi {
+  background-color: #b4c6e7;
+}
+.recentnoi {
+  background-color: #b4c6e7;
+}
+.change {
+  background-color: #b4c6e7;
+}
+.dscr {
+  background-color: #b4c6e7;
+}
+.remainingio {
+  background-color: #b4c6e7;
+}
+.cutoffltv {
+  background-color: #bc8fdd;
+}
+.originalappraisal {
+  background-color: #bc8fdd;
+}
+.origapprpsf {
+  background-color: #bc8fdd;
+}
+.appraisal {
+  background-color: #bc8fdd;
+}
+.valuepsf {
+  background-color: #bc8fdd;
+}
+.appraisaldate {
+  background-color: #bc8fdd;
+}
+.impliedcap {
+  background-color: #f8cbad;
+}
+.debtyield {
+  background-color: #f8cbad;
+}
+.modelbasencf {
+  background-color: #92cddc;
+}
+.cannaebasencf {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.cannaestressncf {
+  background-color: #92cddc;
+}
+.appraisalrecovered {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.cannaecap {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.modelbaseval {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.cannaebaseval {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.cannaevalunit {
+  background-color: #c6e0b4;
+}
+.cannaestressval {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.ltv {
+  background-color: #c6e0b4;
+}
+.modelbaseloss {
+  background-color: #c6e0b4;
+}
+.cannaebaseloss {
+  background-color: #c6e0b4;
+}
+.cannaestressloss {
+  background-color: #c6e0b4;
+}
+.cannaeloss {
+  background-color: #c6e0b4;
+}
+.cannaestressloss {
+  background-color: #c6e0b4;
+}
+.timing {
+  background-color: #ffffcc;
+  color: #0070c0;
+}
+.bloombergcomments {
+  background-color: #eee;
+}
+.cannaecomments {
+  background-color: #eee;
+}
+.krollcomments {
+  background-color: #eee;
+}
+.tri-color-1 {
+  background-color: #f8696b !important;
+  color: #000 !important;
+}
+.tri-color-2 {
+  background-color: #f8706d !important;
+  color: #000 !important;
+}
+.tri-color-3 {
+  background-color: #f87770 !important;
+  color: #000 !important;
+}
+.tri-color-4 {
+  background-color: #f97e72 !important;
+  color: #000 !important;
+}
+.tri-color-5 {
+  background-color: #f98575 !important;
+  color: #000 !important;
+}
+.tri-color-6 {
+  background-color: #f98c77 !important;
+  color: #000 !important;
+}
+.tri-color-7 {
+  background-color: #fa937a !important;
+  color: #000 !important;
+}
+.tri-color-8 {
+  background-color: #fa9a7d !important;
+  color: #000 !important;
+}
+.tri-color-9 {
+  background-color: #faa17f !important;
+  color: #000 !important;
+}
+.tri-color-10 {
+  background-color: #fa9f7f !important;
+  color: #000 !important;
+}
+.tri-color-11 {
+  background-color: #fba581 !important;
+  color: #000 !important;
+}
+.tri-color-12 {
+  background-color: #fbac83 !important;
+  color: #000 !important;
+}
+.tri-color-13 {
+  background-color: #fbb285 !important;
+  color: #000 !important;
+}
+.tri-color-14 {
+  background-color: #fcb887 !important;
+  color: #000 !important;
+}
+.tri-color-15 {
+  background-color: #fcbe8a !important;
+  color: #000 !important;
+}
+.tri-color-16 {
+  background-color: #fcc48c !important;
+  color: #000 !important;
+}
+.tri-color-17 {
+  background-color: #fdca8e !important;
+  color: #000 !important;
+}
+.tri-color-18 {
+  background-color: #fdd090 !important;
+  color: #000 !important;
+}
+.tri-color-19 {
+  background-color: #fdd693 !important;
+  color: #000 !important;
+}
+.tri-color-20 {
+  background-color: #fedc95 !important;
+  color: #000 !important;
+}
+.tri-color-21 {
+  background-color: #fee297 !important;
+  color: #000 !important;
+}
+.tri-color-22 {
+  background-color: #63be7b !important;
+  color: #000 !important;
+}
+
+.quad-color-1 {
+  background-color: #f8696b !important;
+  color: #000 !important;
+}
+.quad-color-2 {
+  background-color: #f8706d !important;
+  color: #000 !important;
+}
+.quad-color-3 {
+  background-color: #f87770 !important;
+  color: #000 !important;
+}
+.quad-color-4 {
+  background-color: #f97e72 !important;
+  color: #000 !important;
+}
+.quad-color-5 {
+  background-color: #f98575 !important;
+  color: #000 !important;
+}
+.quad-color-6 {
+  background-color: #f98c77 !important;
+  color: #000 !important;
+}
+.quad-color-7 {
+  background-color: #fa937a !important;
+  color: #000 !important;
+}
+.quad-color-8 {
+  background-color: #fa9a7d !important;
+  color: #000 !important;
+}
+.quad-color-9 {
+  background-color: #faa17f !important;
+  color: #000 !important;
+}
+.quad-color-10 {
+  background-color: #fa9f7f !important;
+  color: #000 !important;
+}
+.quad-color-11 {
+  background-color: #fba581 !important;
+  color: #000 !important;
+}
+.quad-color-12 {
+  background-color: #fbac83 !important;
+  color: #000 !important;
+}
+.quad-color-13 {
+  background-color: #fbb285 !important;
+  color: #000 !important;
+}
+.quad-color-14 {
+  background-color: #fcb887 !important;
+  color: #000 !important;
+}
+.quad-color-15 {
+  background-color: #fcbe8a !important;
+  color: #000 !important;
+}
+.quad-color-16 {
+  background-color: #fcc48c !important;
+  color: #000 !important;
+}
+.quad-color-17 {
+  background-color: #fdca8e !important;
+  color: #000 !important;
+}
+.quad-color-18 {
+  background-color: #fdd090 !important;
+  color: #000 !important;
+}
+.quad-color-19 {
+  background-color: #fdd693 !important;
+  color: #000 !important;
+}
+.quad-color-20 {
+  background-color: #feee95 !important;
+  color: #000 !important;
+}
+.quad-color-21 {
+  background-color: #e9e78a !important;
+  color: #000 !important;
+}
+.quad-color-22 {
+  background-color: #63be7b !important;
+  color: #000 !important;
+}
+
+.yes-style {
+  background-color: #e6b8b7;
+}
+.no-style {
+  background-color: #c6e0b4;
+}
+.active {
+  color: aqua !important;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.root {
+  flex-grow: 1;
+}
+.grow {
+  flex-grow: 1;
+  font-size: 20px;
+}
+.menuButton {
+  /* margin-left: -18px;
+  margin-right: 10px; */
+  margin-left: -18px !important;
+  margin-right: 36px;
+
+  width: 65px;
+  height: 65px;
+}
+.layoutButton {
+  width: 150px;
+}
+.list {
+  width: 250px;
+}
+.fullList {
+  width: "auto";
+}
+.logo {
+  display: "flex";
+  flex-direction: "row";
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: 1000;
+  font-size: 24px;
+  color: #fff;
+}
+.menuItem {
+  display: "flex";
+  flex-direction: "row";
+  padding: 0;
+  font-weight: bold;
+  color: "#fff";
+}
+input {
+  border: 0px solid;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+.details {
+  display: none;
+}
+.trigger {
+  font-size: 30px !important;
+  font-weight: bold;
+  cursor: pointer;
+}
+input[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0 0 1px #3f51b5;
+}
+.svg-icon {
+  font-family: inherit;
+  color: #fff !important;
+}
+.nav-content {
+  flex-grow: 1;
+  padding: 30px;
+}
+.div-box {
+  position: relative;
+}
+
+.login {
+  margin: 20px auto;
+  width: 300px;
+  padding: 30px 25px;
+  background: lightseagreen !important;
+  border: 1px solid #c4c4c4;
+}
+
+h1.login-title {
+  margin: -28px -25px 25px;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 35px;
+  font-weight: 300;
+  color: #000;
+  text-align: center;
+  background: lightseagreen !important;
+}
+.log{
+  color: white !important;
+}
+.logout{
+  position: absolute !important;
+  left: 1333px !important;
+}
+.tabdisplay{
+  overflow-y: scroll !important;
+}
+
+.login-input {
+  width: 285px;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: black;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.login-lost {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.login-lost a {
+  text-decoration: none;
+  font-size: 13px;
+}
+form input.error {
+  border-color: red;
+}
+.error-text {
+  color: red;
+}
+.user-name {
+  z-index: 9999;
+}
+.zoom-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 99 !important;
+}
+.custom-tooltip span {
+  text-align: left;
+  display: block;
+}
+.custom-tooltip span b {
+  margin-left: 15px;
+}
+.content-div {
+  width: 100%;
+  max-height: 1000px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.MuiModal-root-160 {
+  top: 21px !important;
+  left: -1150px !important;
+  right: 0;
+  bottom: 0;
+  z-index: 1300;
+  position: fixed;
+}
+.tab-width {
+  min-width: 60px !important;
+  font-size: 11px !important;
+}
+.main-tab-width {
+  min-width: 40px !important;
+}
+.main-tab {
+  min-width: 120px !important;
+}
+.mob-tab-width {
+  min-width: 120px;
+  left: 3px;
+  position: sticky;
+  position: -webkit-sticky;
+}
+.tooltip-wrapper-div {
+  pointer-events: none;
+  position: absolute;
+  z-index: 10;
+}
+.tooltip-box {
+  background: white;
+  color: inherit;
+  font-size: inherit;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px;
+  padding: 5px 9px;
+}
+.small-square {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-right: 7px;
+}
+.hedge-position-top-middle {
+  position: relative;
+  top: -29px;
+  color: rgba(0, 0, 0, 0.54);
+}
+span.hedge-position-top-middle {
+  position: absolute;
+  top: 5px;
+  z-index: 999;
+}
+span.hedge-position-top-right {
+  position: absolute;
+  top: 0;
+  right: -27px;
+  z-index: 999;
+  overflow-x: hidden !important;
+}
+.App-content-11 {
+  height: 93vh;
+  overflow: hidden !important;
+  flex-grow: 1;
+  margin-top: 65px;
+}
+.drop-zone {
+  display: table-cell;
+  width: 900px;
+  height: 200px;
+  border-width: 2px;
+  border-color: rgb(102, 102, 102);
+  border-style: dashed;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+.note {
+  color: rgb(48, 189, 48);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.label {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.textArea {
+  width: 100%;
+  height: 150px;
+}
+.toggleSelected {
+  background-color: #3f51b5 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.react-datepicker-popper {
+  z-index: 10;
+}
+.upper-case {
+  text-transform: uppercase;
+}
+
+.wname{
+  position: relative !important;
+  top:-20px !important;
+  font-size: 29px !important;
+}
